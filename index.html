@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -17,4 +17,35 @@
             <p id="numberOfGuesses"></p>
         </div>
     <script src="script.js"></script>
+</html> -->
+
+
+
+<!-- ? -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Guessing Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Number Guessing Game</h1>
+        <p>Guess a number between 1 and 15.</p>
+        <input type="number" id="guessInput" min="1" max="15" placeholder="Enter your guess">
+        <button onclick="checkGuess()">Guess</button>
+        <p id="message"></p>
+        <p id="guessedNumbers"></p>
+        <p id="numberOfGuesses"></p>
+
+        <!-- Add the audio element here -->
+        <audio id="successSound" src="crore7.mp3" preload="auto"></audio>
+    </div>
+    <script src="script.js"></script>
+</body>
 </html>
